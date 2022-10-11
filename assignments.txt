@@ -1,0 +1,245 @@
+ 1 no of people no seats
+
+x = int(input('enetr a no')) 
+user=int(input('enter the people'))
+seats=70
+busplace=(user/seats)
+print(busplace)
+
+
+#2 convert forigen heat to celsius
+
+f=int(input("enter temparature")) 
+c=(f - 32)*5/9
+print(c)  
+ 
+# 3convert to celcius to forigen heat 
+
+c=int(input("enter the celcius"))
+f=(c *9/5)+ 32
+print(f)
+
+# 4 standard devaition
+
+x1=int(input("enter the number 1:"))
+x2=int(input("enter the number 2:"))    
+x3=int(input("enter the number 3:"))
+x4=int(input("enter the number4 :"))
+sum=(x1+x2)^2,(x3+x4)^3
+print('sum:',sum)
+
+m=1.23
+b=0.045
+y=m*(x1+x2+x3+x4)+b
+print(y)
+
+avarage=(x1+x2+x3+x4)/4
+print("avarage",avarage)
+
+sum=(x1+x2+x3+x4)
+print("sun",sum)'''
+
+
+'''# 5 the distance
+
+a=int(input("enter the distance:"))
+meter=(a*1000)
+print('meter:',meter)
+cm=(meter*100)
+print('cm:',cm)
+mm=(cm*10)
+print("mm",mm)
+inch=(a*39370.1)
+print("inch",inch)
+feets=(a*3280.24)
+print("feets",feets)
+yards=(a*1093.6132)
+print("yards",yards)'''  
+
+
+''''#6 the size hard disk in gba=int(input("enter the gb"))
+
+mb=(a*1024)
+print("mb",mb)
+kb=(mb*1024)
+print("kb",kb)
+tb=(kb*1024)
+print("tb",tb)
+pb=(tb*1024)
+print("pb",pb)'''
+
+
+'''# 7 find out the name,age,height
+
+a=input('user of the name')
+b=input('user of the age')
+c=input('user of the height')
+print("user of the name:",a,",user of the age:",b,",user of the height:",c)'''
+    
+ 
+ 
+'''# 8 bmi calculation
+
+a=int(input("person of the weight"))
+b=int(input("person of the hight"))
+bmi=(a/b**2)
+print(bmi)'''
+
+'''# 9 format specifier(%s,%d,%f)
+ 
+name='jayaram'
+age=1.6
+height=3.5356234
+weight=10.343856783
+x=("name:%s,age:%f,height:%.2f,weight:%.2f"%(name,age,height,weight))
+print(x)'''
+
+
+
+'''# 10 uppercase and smallcase
+ 
+a=input("enter the name:" )
+if(a.isupper()):
+    print(a.lower())
+if(a.islower()):
+    print(a.upper())'''
+    
+    
+'''# 11 base and exponent value
+
+a=int(input("enter the base value"))
+b=int(input("enterthe exponent value:"))
+x=(a**b)
+print(x)'''   
+
+'''#12 take some groceries
+
+ cost=[30,45,56,78,98,106,]
+total=sum(cost)
+print('totalcost:',total)
+avarage = total/len(cost)
+print('avarage',avarage)
+x=(max(cost))
+print('maximum cost',x)
+y=(min(cost))
+print('minimum cost',y)'''
+
+
+'''#14print even or odd
+
+a=int(input('enter a value'))
+if(a%2==0):
+    print('even')
+else:
+    print('odd')'''
+
+'''# 15 decide positive and negative 
+
+a=int(input("enter the value"))
+if  (a>0==0):
+     print('pasitive')
+else:
+    print('negative')'''
+
+
+'''#16 show the error messege
+
+name=input("enter the value")
+print(len(name))
+if  (len(name)==0):
+    print('error')'''
+ 
+
+'''# 17 methemetical oparation
+ 
+a=int(input("enter first  the value"))
+b=int(input("enter second the value"))
+print("1.add 2.sub 3.mul 4.div 5.quit")
+choice=int(input("enter the choice"))
+if  (choice==1):
+    print('add',a+b)
+elif(choice==2):
+    print('sub',a-b)
+elif(choice==3):
+    print('mul',a*b)
+elif(choice==4):
+    print('div',a/b)
+elif(choice==5):
+    print('quit')'''
+    
+
+'''# 18 show the menu 
+    
+print("1.kids,2.mens,3.womans")
+choice=int(input("enter the choice"))
+if (choice==1):
+    print('you are a kid')
+elif(choice==2):
+    print('you are a gentlemanmen')
+elif(choice==3):
+    print('you are a good women')
+else:
+    print('errror messege')'''
+      
+
+'''# 19 given substring
+
+a=input("python is a pure object oriented programmaig language")
+if "pure" in a:
+    print("yes")
+else:
+    print("not")'''
+                    
+
+'''# 20 take the numbers which is big
+
+a={1,2,7}
+print(max (a))'''
+
+
+'''# 21 take age gender deside eligible marrige or not
+
+a=int(input("take age from user:"))
+b=input("take gender from the user:")   
+if (a>=24):
+   print('he is eligible for marrige')
+else:     
+    print('he is not eligible for marrige')
+if (a>=21):
+   print('she is eligible for marrige')
+else:
+     print('she is not eligible for marrige')'''
+
+
+'''# 23 operating system
+
+a=input("goto first floor and buywindows laptap ro mobile")
+b=input("goto second floor and buy android mobiles")
+c=input("goto third floor and buy mac laptap or iphoes")
+print("1.windows,2.android,3.mac")
+choice=int(input("enter the value"))
+if choice==1:
+    print('windows',a)
+if choice==2:
+    print('android',b)
+if choice==3:
+    print('mac',c)
+else:
+     ("there is only three floors please select 1 or 2or 3")'''
+
+
+'''# 24 given an age and whether
+a=float(input("age:"))
+if (a<=2):
+    print('baby')
+elif(a<=12):
+    print('child')
+elif(a<=19):
+    print('teens')
+elif(a<=60):
+    print('adult')
+elif(a<=100):
+    print('old')
+else:
+    print('derth')'''
+
